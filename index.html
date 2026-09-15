@@ -3,18 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ricardo Russo — SAP Analytics Transformation & Governance</title>
-  <meta name="description" content="Senior SAP Analytics Consultant helping organisations govern, modernise and get more value from SAP Analytics environments.">
+  <title>Ricardo Russo — Senior SAP Analytics & Transformation Consultant</title>
+  <meta name="description" content="Senior SAP Analytics & Transformation Consultant bringing structure, control and business alignment to complex analytics environments.">
   <meta name="author" content="Ricardo Russo">
   <meta name="theme-color" content="#f5f2ec">
 
-  <meta property="og:title" content="Ricardo Russo — SAP Analytics Transformation & Governance">
-  <meta property="og:description" content="Platform governance, analytics transformation, technical business analysis and programme delivery.">
+  <meta property="og:title" content="Ricardo Russo — Senior SAP Analytics & Transformation Consultant">
+  <meta property="og:description" content="Deep SAP Analytics experience combined with platform governance, technical business analysis and programme delivery.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ricardorusso.com/">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <script defer src="content/capabilities.js"></script>
+  <script defer src="content/career.js"></script>
+  <script defer src="content/transformation.js"></script>
+  <script defer src="content/perspectives.js"></script>
   <script defer src="script.js"></script>
 </head>
 <body>
@@ -28,15 +32,29 @@
         <span class="brand-last">RUSSO</span>
       </a>
 
-      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-
-      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
-        <a href="#problems">Problems</a>
+      <nav id="site-nav" class="site-nav desktop-nav" aria-label="Primary navigation">
+        <a href="#problems">Problems I solve</a>
         <a href="#engagements">Engagements</a>
-        <a href="#evidence">Evidence</a>
+        <a href="#career">Career</a>
+        <a href="#transformation">Transformation</a>
         <a href="#about">About</a>
         <a href="#contact" class="nav-cta">Get in touch</a>
       </nav>
+
+      <details class="mobile-nav">
+        <summary aria-label="Open navigation">
+          <span>Menu</span>
+          <span class="menu-icon" aria-hidden="true"></span>
+        </summary>
+        <nav class="mobile-nav-panel" aria-label="Mobile navigation">
+          <a href="#problems">Problems I solve</a>
+        <a href="#engagements">Engagements</a>
+        <a href="#career">Career</a>
+        <a href="#transformation">Transformation</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Get in touch</a>
+        </nav>
+      </details>
     </div>
   </header>
 
@@ -44,52 +62,36 @@
     <section id="top" class="hero">
       <div class="shell hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">Senior SAP Analytics Consultant</p>
-          <h1>I help organisations stabilise, govern and modernise SAP Analytics environments.</h1>
+          <p class="eyebrow">Senior SAP Analytics &amp; Transformation Consultant</p>
+          <h1>I bring structure, control and business alignment to complex analytics environments.</h1>
           <p class="hero-intro">
-            From SAC governance and content housekeeping to analytics transformation,
-            technical business analysis and programme delivery — bridging business,
-            data and technology.
+            Deep SAP Analytics experience across SAC, BusinessObjects and BW, combined with
+            platform governance, technical business analysis and programme delivery.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#engagements">See how I can help</a>
-            <a class="button ghost" href="#contact">Discuss your situation</a>
+            <a class="button ghost" href="Ricardo_Russo_Executive_Profile.pdf" download>Download executive profile ↓</a>
           </div>
+          <p class="hero-download-note">2-page PDF designed for internal sharing.</p>
         </div>
 
-        <aside class="hero-card" aria-label="Professional principle">
-          <span class="card-kicker">Professional principle</span>
-          <p>Technology creates value when people trust it, can find what matters, and actually use it.</p>
+        <aside class="hero-card hero-card-principle" aria-label="Business principle">
+          <div class="principle-topline">
+            <span class="card-kicker">Business principle</span>
+            <span class="principle-mark" aria-hidden="true"></span>
+          </div>
+          <p><strong>Technology only creates value</strong> when <strong>people</strong> trust it, can find what matters and <strong>actually use it.</strong></p>
           <span class="card-signoff">— Ricardo</span>
         </aside>
-      </div>
-
-      <div class="shell evidence-strip">
-        <div class="metric">
-          <strong>18+</strong>
-          <span>years in analytics & transformation</span>
-        </div>
-        <div class="metric">
-          <strong>341</strong>
-          <span>SAC stories governed through ODE migration</span>
-        </div>
-        <div class="metric">
-          <strong>8</strong>
-          <span>DWH workstreams managed in banking</span>
-        </div>
-        <div class="metric">
-          <strong>2.5h → &lt;1m</strong>
-          <span>critical report runtime improvement</span>
-        </div>
       </div>
     </section>
 
     <section id="problems" class="section">
       <div class="shell">
         <div class="section-head">
-          <p class="eyebrow">Typical situations</p>
-          <h2>You may not need another tool. You may need clarity.</h2>
-          <p class="lead">These are the kinds of situations where I am usually most useful.</p>
+          <p class="eyebrow">Problems I solve</p>
+          <h2>Complex analytics environments often struggle through ownership, governance or alignment — not technology alone.</h2>
+          <p class="lead">I am most useful when the platform, business logic and delivery model need to be brought back into the same conversation.</p>
         </div>
 
         <div class="problem-grid">
@@ -131,8 +133,8 @@
       <div class="shell">
         <div class="section-head">
           <p class="eyebrow">Engagements</p>
-          <h2>Concrete ways to start.</h2>
-          <p class="lead">Focused enough to be useful quickly; broad enough to uncover the real issue.</p>
+          <h2>I can enter where the problem is stuck.</h2>
+          <p class="lead">Four practical entry points, depending on whether the issue is platform governance, analytics change or delivery control.</p>
         </div>
 
         <div class="engagement-list">
@@ -163,13 +165,14 @@
               <h3>SAP Analytics Platform Health Check</h3>
               <p>
                 A structured assessment of how the platform is operating across stability, access,
-                release controls, support, performance, ownership and business usage.
+                release controls, support, incident/problem patterns, SAP case handling, performance, ownership and business usage.
               </p>
               <div class="tag-row">
                 <span>SAC</span>
                 <span>BusinessObjects</span>
                 <span>Support model</span>
                 <span>Platform operations</span>
+                <span>Incident / problem</span>
               </div>
             </div>
             <div class="engagement-outcome">
@@ -183,14 +186,15 @@
             <div class="engagement-main">
               <h3>Analytics Transformation Discovery</h3>
               <p>
-                Clarify requirements, source-to-target mappings, KPI logic, target-state assumptions
-                and the business case around a migration or modernisation initiative.
+                Clarify requirements, source-to-target mappings, KPI logic, target-state assumptions,
+                expected business consequence and the value case around a migration or modernisation initiative.
               </p>
               <div class="tag-row">
                 <span>Requirements</span>
                 <span>Data mapping</span>
                 <span>Datasphere / BDC</span>
                 <span>Migration planning</span>
+                <span>Value case</span>
               </div>
             </div>
             <div class="engagement-outcome">
@@ -205,13 +209,14 @@
               <h3>Programme Governance & Service Transition Support</h3>
               <p>
                 Hands-on governance support across workstreams, suppliers, risks, releases, steering
-                decisions and transition into a stable operating model.
+                decisions, service transition, knowledge transfer and transition into a stable operating model.
               </p>
               <div class="tag-row">
                 <span>PMO</span>
                 <span>Service transition</span>
                 <span>Supplier governance</span>
                 <span>Go-live</span>
+                <span>Knowledge transfer</span>
               </div>
             </div>
             <div class="engagement-outcome">
@@ -232,62 +237,35 @@
       </div>
     </section>
 
-    <section id="evidence" class="section">
-      <div class="shell">
-        <div class="section-head">
-          <p class="eyebrow">Selected evidence</p>
-          <h2>What I have actually done.</h2>
-        </div>
+    <section id="capabilities" class="section capabilities-section">
+      <div class="shell" id="capabilities-content"></div>
+    </section>
 
-        <div class="case-grid">
-          <article class="case-card">
-            <div class="case-topline"><span>Norsk Hydro</span><span>2023–2025</span></div>
-            <h3>Governed a 341-story SAC ODE migration.</h3>
-            <dl>
-              <div><dt>Context</dt><dd>Large international SAC environment</dd></div>
-              <div><dt>Contribution</dt><dd>Governance, readiness, regression testing, issue triage and SAP Support escalation</dd></div>
-              <div><dt>Why it matters</dt><dd>Migration became a governance exercise, not just a technical conversion</dd></div>
-            </dl>
-          </article>
-
-          <article class="case-card">
-            <div class="case-topline"><span>Novo Banco</span><span>2011–2016</span></div>
-            <h3>Coordinated a six-month SAP Mission Critical engagement.</h3>
-            <dl>
-              <div><dt>Context</dt><dd>Business-critical reporting performance issue</dd></div>
-              <div><dt>Contribution</dt><dd>Coordinated SAP, Microsoft, infrastructure, database and vendor teams</dd></div>
-              <div><dt>Outcome</dt><dd>A key process improved from ~2.5 hours to under one minute</dd></div>
-            </dl>
-          </article>
-
-          <article class="case-card">
-            <div class="case-topline"><span>Norsk Hydro / Brazil</span><span>2025</span></div>
-            <h3>Helped preserve KPI logic through a reporting-stack change.</h3>
-            <dl>
-              <div><dt>Context</dt><dd>KPIs moving from a retiring BW/4HANA reporting flow</dd></div>
-              <div><dt>Contribution</dt><dd>Mapped business logic with stakeholders and developers; validated KPI equivalence</dd></div>
-              <div><dt>Outcome</dt><dd>Business continuity with improved performance in the new flow</dd></div>
-            </dl>
-          </article>
-
-          <article class="case-card">
-            <div class="case-topline"><span>Deutsche Bank</span><span>2016–2017</span></div>
-            <h3>Managed governance across eight DWH workstreams.</h3>
-            <dl>
-              <div><dt>Context</dt><dd>Two suppliers and three BI solutions in a controlled banking environment</dd></div>
-              <div><dt>Contribution</dt><dd>Dependencies, risks, releases, steering committees and executive reporting</dd></div>
-              <div><dt>Outcome</dt><dd>Clearer ownership and controlled multi-stream delivery</dd></div>
-            </dl>
-          </article>
-        </div>
+    <section id="career" class="section">
+      <div class="shell" id="career-content">
+        <noscript>
+          <div class="section-head">
+            <p class="eyebrow">Career progression</p>
+            <h2>A career built through increasing responsibility.</h2>
+            <p class="lead">Enable JavaScript to view the interactive career timeline.</p>
+          </div>
+        </noscript>
       </div>
+    </section>
+
+    <section id="transformation" class="section transformation-section">
+      <div class="shell" id="transformation-content"></div>
+    </section>
+
+    <section id="perspectives" class="section perspectives-section" hidden>
+      <div class="shell" id="perspectives-content"></div>
     </section>
 
     <section class="section section-dark">
       <div class="shell how-grid">
         <div>
           <p class="eyebrow light">How I work</p>
-          <h2>No theatre. No mystery. No unnecessary transformation programme.</h2>
+          <h2>Business context first. Technology second. Delivery always controlled.</h2>
         </div>
         <div class="principles">
           <article>
@@ -302,13 +280,23 @@
           </article>
           <article>
             <span>03</span>
-            <h3>Protect what already works</h3>
-            <p>Modernisation should preserve useful business logic and knowledge rather than recreate it because a new platform exists.</p>
+            <h3>Connect change to consequence</h3>
+            <p>Transformation should create a business outcome strong enough to justify its financial cost, operational disruption and added complexity.</p>
           </article>
           <article>
             <span>04</span>
-            <h3>Keep adoption in scope</h3>
-            <p>A technically correct solution that people avoid is still an unsuccessful solution.</p>
+            <h3>Stabilise operations and learn from incidents</h3>
+            <p>Production issues, SAP cases and recurring incidents are signals. Resolve them, understand the cause and feed the learning back into governance.</p>
+          </article>
+          <article>
+            <span>05</span>
+            <h3>Build capability, not dependency</h3>
+            <p>Mentoring, review and knowledge transfer should leave teams more capable of owning, operating and improving the platform themselves.</p>
+          </article>
+          <article>
+            <span>06</span>
+            <h3>Keep adoption and maintainability in scope</h3>
+            <p>A technically correct solution that people avoid — or that the organisation cannot sustain — is still an unsuccessful solution.</p>
           </article>
         </div>
       </div>
@@ -318,40 +306,26 @@
       <div class="shell about-grid">
         <div class="section-head compact">
           <p class="eyebrow">About</p>
-          <h2>Business context first. Technology second.</h2>
+          <h2>My role is usually between business, platform teams and delivery.</h2>
         </div>
         <div class="about-copy">
-          <p>
-            I have spent more than eighteen years in enterprise analytics, moving from hands-on
-            SAP BW and planning work into platform ownership, technical business analysis,
-            governance, team leadership and programme delivery.
+          <p class="about-lead">
+            I am not positioned as a narrow product specialist. My value is in bringing together
+            business requirements, analytics platforms and delivery governance when the environment
+            has become complex.
           </p>
           <p>
-            The recurring part of my career has been working between business and technology:
-            clarifying requirements, understanding data and KPI logic, coordinating the right
-            specialists and making sure the delivered solution remains useful after go-live.
+            Over more than eighteen years in enterprise analytics, I have moved from hands-on SAP BW
+            and planning work into platform and application ownership, technical business analysis,
+            operational resilience, supplier governance, mentoring, team leadership and programme delivery.
           </p>
           <p>
-            My strongest background is in SAP Analytics Cloud, BusinessObjects, BW/BW4HANA and BPC,
-            complemented by practical exposure to Datasphere and ongoing capability development
-            around SAP Business Data Cloud.
+            My strongest technical foundation is SAP Analytics Cloud, BusinessObjects, BW/BW4HANA
+            and BPC. That depth lets me work credibly with specialists while keeping the wider
+            business, platform and delivery context in view.
           </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section appx-section">
-      <div class="shell appx-grid">
-        <div>
-          <p class="eyebrow">What I am building</p>
-          <h2>AppX</h2>
-        </div>
-        <div>
-          <p>
-            Alongside my SAP Analytics work, I am developing AppX — an independent digital product
-            initiative exploring the intersection of data, analytics, AI, product thinking and user adoption.
-          </p>
-          <p class="teaser">More to come.</p>
+          <p class="references-note">Professional references from previous international engagements are available on request.</p>
+          <a class="profile-download-link" href="Ricardo_Russo_Executive_Profile.pdf" download>Download the 2-page executive profile ↓</a>
         </div>
       </div>
     </section>
@@ -367,18 +341,73 @@
     </section>
 
     <section id="contact" class="section contact-section">
-      <div class="shell contact-grid">
-        <div>
+      <div class="shell">
+        <div class="contact-intro">
           <p class="eyebrow light">Contact</p>
-          <h2>Tell me what is not working.</h2>
-          <p>
-            You do not need a finished brief. A short description of the problem is enough to start.
-          </p>
+          <h2>A short description of the problem is enough to start.</h2>
+          <p>You do not need a finished brief. Tell me where the environment, programme or decision is stuck.</p>
+          <p class="reply-note">I usually reply within one business day.</p>
         </div>
-        <div class="contact-actions">
-          <a class="button light-button" href="mailto:mail@ricardorusso.com?subject=Project%20discussion">mail@ricardorusso.com</a>
-          <a class="button dark-outline" href="https://www.linkedin.com/in/ricardorusso" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <p class="small">Direct response from me — not a sales team.</p>
+
+        <div class="contact-layout">
+          <form class="contact-form" action="https://formsubmit.co/mail@ricardorusso.com" method="POST">
+            <input type="hidden" name="_subject" value="New project enquiry from ricardorusso.com">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://ricardorusso.com/#sent">
+
+            <div class="form-row">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" autocomplete="name" required>
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" autocomplete="email" required>
+              </label>
+            </div>
+
+            <label>
+              <span>Company <em>optional</em></span>
+              <input type="text" name="company" autocomplete="organization">
+            </label>
+
+            <label>
+              <span>What are you trying to solve?</span>
+              <textarea name="message" rows="6" required placeholder="A few lines are enough."></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button class="button light-button" type="submit">Send message</button>
+              <span class="form-privacy">No mailing list. No sales team.</span>
+            </div>
+          </form>
+
+          <aside class="contact-aside">
+            <p class="contact-aside-title">Prefer another route?</p>
+
+            <div class="contact-option">
+              <span>Email</span>
+              <strong id="email-address">mail@ricardorusso.com</strong>
+              <button id="copy-email" class="text-button" type="button">Copy email</button>
+            </div>
+
+            <div class="contact-option">
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/ricardorusso" target="_blank" rel="noopener noreferrer">linkedin.com/in/ricardorusso ↗</a>
+            </div>
+
+            <div class="contact-option">
+              <span>Availability</span>
+              <p>B2B, interim and project-based engagements across Europe. Remote-first.</p>
+            </div>
+
+            <p class="references-contact">Professional references available on request.</p>
+          </aside>
+        </div>
+
+        <div id="sent" class="sent-message" role="status" aria-live="polite">
+          Thanks — your message has been sent. I will get back to you as soon as I can.
         </div>
       </div>
     </section>
@@ -391,7 +420,7 @@
         <span class="brand-dot" aria-hidden="true"></span>
         <span class="brand-last">RUSSO</span>
       </a>
-      <span>Senior SAP Analytics Consultant</span>
+      <span>Senior SAP Analytics &amp; Transformation Consultant</span>
       <span>© <span id="year">2026</span> Ricardo Russo</span>
     </div>
   </footer>
